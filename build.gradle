@@ -48,6 +48,10 @@ dependencies {
 
 	//thymeleaf layout 추가하기
 	implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+
+	// Spring Security 의존성 추가
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
 }
 // === Querydsl 빌드 옵션 (선택사항) ===
 def querydslDir = "$buildDir/generated/querydsl"
