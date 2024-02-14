@@ -51,8 +51,12 @@ dependencies {
 	// Spring Security 의존성 추가
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 
-	// Spring Security Test 의존성 추가
-	testImplementation 'org.springframework.security:spring-security-test:5.0.0.RELEASE'
+	// Spring Security test 의존성 추가
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	//spring boot starter validation 추가하기
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
 }
 // === Querydsl 빌드 옵션 (선택사항) ===
 def querydslDir = "$buildDir/generated/querydsl"
