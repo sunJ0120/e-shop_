@@ -2,7 +2,6 @@ package com.eshop.service;
 
 import com.eshop.dto.MemberFormDto;
 import com.eshop.entity.Member;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
