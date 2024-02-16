@@ -40,7 +40,7 @@ public class Member {
 
         String password = passwordEncoder.encode(memberFormDto.getPassword()); //인코딩
         member.setPassword(password);
-        member.setRole(Role.USER);
+        member.setRole(Role.ADMIN);
 
         return member;
     }
