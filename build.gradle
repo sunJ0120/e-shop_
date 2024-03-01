@@ -59,6 +59,9 @@ dependencies {
 
 	//thymeleaf-extras 추가하기
 	implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
+
+	//modelmapper 의존성 추가
+	implementation 'org.modelmapper:modelmapper:2.4.4'
 }
 // === Querydsl 빌드 옵션 (선택사항) ===
 def querydslDir = "$buildDir/generated/querydsl"
